@@ -1,0 +1,15 @@
+[{
+    "name": "adult rule",
+    "description": "when age is greater then 18",
+    "failCondition": "#age lt 18",
+    "problemLevel": "warning",
+    "problemMessage": "Not adult. Age should be greater than 18."
+  },
+  {
+    "name": "gender rule",
+    "description": "the gender should be male",
+    "failCondition": "#gender == 'female'",
+    "problemLevel": "warning",
+    "problemMessage": "gender should be male."
+  }
+]
